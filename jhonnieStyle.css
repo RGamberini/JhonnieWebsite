@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.headerButton {
+    padding: 1%;
+    background-color: BLACK;
+    color: WHITE;
+    font-size: 25px;
+}
+
+.backgroundImage {
+    position: fixed;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: inherit;
+    width: inherit;
+}
+
+.socialMediaTable {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-spacing: 5vw 5vh;
+}
+
+.socialMediaIcon {
+    width: 100%;
+    max-width: 200px;
+}
+
+.content {
+    display: none;
+}
