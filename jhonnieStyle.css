@@ -39,6 +39,9 @@ body {
     max-width: 200px;
 }
 
+.statementBlock {
+    background-color: firebrick;
+}
+
 .content {
-    display: none;
 }
