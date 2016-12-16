@@ -1,7 +1,7 @@
 $(document).ready(function () { // Once the document has loaded
-    $('#contact').show(); // Show contact as our default screen
+    $('#work').show(); // Show contact as our default screen
     
-    $('#work').hide(); // Hide everything else
+    $('#contact').hide(); // Hide everything else
     $('#statement').hide(); // Hide everything else
     
     $('#workButton').click(function () {
