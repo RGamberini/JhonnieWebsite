@@ -98,7 +98,7 @@ body {
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
-/* Taken from "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/anon/pen/gLqmPK */
+/* Taken from "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/anon/pen/gLqmPK Accessed 12/19/2016*/
 .video-foreground,
 .video-background iframe {
   position: absolute;

@@ -8,18 +8,27 @@ $(document).ready(function () { // Once the document has loaded
         $('#contact').hide();
         $('#statement').hide();
         $('#work').show();
+        
+        $(".backgroundImage").css("background-image", "url('bg.bmp')");
+        $('#videoIframe').attr('src', '');
     });
     
     $('#contactButton').click(function () {
         $('#work').hide();
         $('#statement').hide();
         $('#contact').show();
+        
+        $(".backgroundImage").css("background-image", "url('bg.bmp')");
+        $('#videoIframe').attr('src', '');
     });
     
     $('#statementButton').click(function () {
         $('#work').hide();
         $('#contact').hide();
         $('#statement').show();
+        
+        $(".backgroundImage").css("background-image", "url('bg.bmp')");
+        $('#videoIframe').attr('src', '');
     });
     
     var url = 'https://www.youtube.com/embed/{ID HERE}?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist={ID HERE};';
